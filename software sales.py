@@ -19,7 +19,7 @@ elif 50 <= p <= 99:
     total = 99 * p - a
     a1 = "${:,.2f}".format(a)
     print(f"Discount Amount @ 20% : {a1}")
-else:
+else
     a = 99 * p * (2/5)
     a1 = "${:,.2f}".format(a)
     total = 99 * p - a
